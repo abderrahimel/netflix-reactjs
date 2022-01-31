@@ -1,0 +1,48 @@
+.signupScreen{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+.signupScreen > form {
+    display: grid;
+    flex-direction: column;
+
+}
+.signupScreen>form>h1{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.signupScreen>form>h4{
+    text-align: left;
+    margin-top: 30px;
+}
+.signupScreen__gray{
+    color: gray;
+}
+.signupScreen > form > input {
+    outline-width: 0;
+    /* larger  */
+    height: 40px;
+    /* the make the space between the column of the form */
+    margin-bottom: 14px;
+    /* this let the angle in the input not 90 like arc of cercle */
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+.signupScreen>form>button{
+    padding: 16px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+.signupScreen__link{
+    cursor: pointer;
+    text-decoration: underline;
+}
